@@ -113,6 +113,12 @@ navbar {
   justify-content: center;
   width: 100%;
 }
+.addons_btn{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
 #venue .venue_selection .text{
   font-size: 15px;
 }
@@ -178,10 +184,10 @@ navbar {
 
 /* Totals */
 .total_cost {
-  font-size: 22px;
+  font-size: 18px;
   color: var(--text-dark);
   background: var(--light-color);
-  padding: 12px 20px;
+  padding: 10px 15px;
   border-radius: var(--btn-radius);
   text-align: center;
 }
@@ -193,6 +199,14 @@ navbar {
   justify-content: center;
   gap: 10px;
 }
+.input-container label{
+  font-size: 15px;
+}
+
+.input-container .input_box5{
+  padding: 10px 20px
+}
+
 
 .input-container input {
   height: 35px;
@@ -211,11 +225,14 @@ navbar {
 
 .meal_item .inner {
   display: flex;
-  gap: 20px;
+  gap: 10px;
+}
+.meal_item label{
+  font-size: 15px;
 }
 
 .meal_item .meal_cost {
-  font-size: 20px;
+  font-size: 15px;
   margin-left: 20px;
 }
 
